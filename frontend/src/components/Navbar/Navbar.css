@@ -5,3 +5,8 @@
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}

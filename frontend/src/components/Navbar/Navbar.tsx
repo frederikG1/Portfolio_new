@@ -3,7 +3,15 @@ import "./Navbar.css";
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <span className="navbar-name">Frederik Grønbæk</span>
+      <div className="navbar-name">Frederik Grønbæk</div>
+      <div className="navbar-right">
+        <li>
+          <a href="/about">About</a>
+        </li>
+        <li>
+          <a href="contact">Contact</a>
+        </li>
+      </div>
     </nav>
   );
 };
